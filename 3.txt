@@ -1,0 +1,27 @@
+public class main {
+	public static void main (String[]args) {
+	TreeNode drinks = new TreeNode("drinks");
+	TreeNode hot = new TreeNode("hot");
+	TreeNode cold =new TreeNode ("cold");
+	drinks.addChild(cold);
+	drinks.addChild(hot);
+	TreeNode tea=new TreeNode("tea");
+	TreeNode coffee=new TreeNode("coffee");
+	hot.addChild(tea);
+	hot.addChild(coffee);
+	TreeNode green =new TreeNode("green");
+	TreeNode black =new TreeNode("black");
+	tea.addChild(green);
+	tea.addChild(black);
+	TreeNode american=new TreeNode("american");
+	TreeNode lattee=new TreeNode("lattee");
+	TreeNode capuunicho =new TreeNode("capunichoo");
+	coffee.addChild(american);
+	coffee.addChild(lattee);
+	coffee.addChild(capunichoo);
+	
+	
+	
+	
+	
+	
